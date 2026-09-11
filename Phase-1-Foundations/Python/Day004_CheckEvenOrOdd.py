@@ -1,5 +1,5 @@
 """
-Headline: Check Even or Odd
+Headline: git commit -m "day-004: Check Even or Odd"
 Description: Read an integer and print whether it's even or odd.
 
 Pseudocode:
