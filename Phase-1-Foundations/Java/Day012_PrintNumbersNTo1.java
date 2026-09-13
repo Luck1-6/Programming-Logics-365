@@ -7,15 +7,9 @@ import java.util.Scanner;
  * Description: Read N and print integers from N down to 1.
  *
  * Pseudocode:
-class Day012_PrintNumbersNTo1:
-  main():
-    Scanner sc = new Scanner(System.in);
-    System.out.Println("Enter n: ");
-    
-    n = sc.nextInt()
-
-    for i = n; i >= 1; i--:
-      System.out.println(i)
+   input(n)
+   for(i=n;i>0;i--)
+   		println(i)
  */
 
 // ---- Program ----
