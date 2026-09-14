@@ -8,8 +8,6 @@ import java.util.Scanner;
  *
  * Pseudocode:
     input(n);
-
-    next line;
     sum = 0
 
     for i = 1; i <= n; i++:
