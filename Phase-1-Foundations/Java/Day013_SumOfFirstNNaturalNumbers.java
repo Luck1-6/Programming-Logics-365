@@ -24,12 +24,12 @@ public class Day013_SumOfFirstNNaturalNumbers {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter N: ");
-        int N = sc.nextInt();
+        System.out.print("Enter n: ");
+        int n = sc.nextInt();
 
         int sum = 0;
 
-        for (int i = 1; i <= N; i++) {
+        for (int i = 1; i <= n; i++) {
             sum = sum + i;
         }
 
