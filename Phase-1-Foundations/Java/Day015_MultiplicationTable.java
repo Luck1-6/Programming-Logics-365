@@ -12,8 +12,8 @@ class Day015_MultiplicationTable:
     input(num);
 
     for i = 1; i <= 10; i++:
-      result = num * i
-      print(num, "x", i, "=", result)
+      product = num * i
+      print(num, "x", i, "=", product)
  */
 
 // ---- Program ----
@@ -28,8 +28,8 @@ public class Day015_MultiplicationTable {
         int num = sc.nextInt();
 
         for (int i = 1; i <= 10; i++) {
-            int result = num * i;
-            System.out.println(num + " x " + i + " = " + result);
+            int product = num * i;
+            System.out.println(num + " x " + i + " = " + product);
         }
 
         sc.close();
