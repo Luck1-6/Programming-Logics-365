@@ -13,11 +13,11 @@ print("Factorial:", factorial)
 """
 
 # ---- Program ----
-N = int(input("Enter N: "))
+num = int(input("Enter number: "))
 
 factorial = 1
 
-for i in range(1, N + 1):
+for i in range(1, num + 1):
     factorial = factorial * i
 
 print("Factorial:", factorial)
