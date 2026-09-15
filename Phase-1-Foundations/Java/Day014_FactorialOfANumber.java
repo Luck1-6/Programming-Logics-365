@@ -25,12 +25,12 @@ public class Day014_FactorialOfANumber {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter N: ");
-        int N = sc.nextInt();
+        System.out.print("Enter number: ");
+        int num = sc.nextInt();
 
         long factorial = 1;
 
-        for (int i = 1; i <= N; i++) {
+        for (int i = 1; i <= num; i++) {
             factorial = factorial * i;
         }
 
